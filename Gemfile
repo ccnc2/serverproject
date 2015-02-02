@@ -1,11 +1,3 @@
-<!doctype html>
-<html>
-<head>
-	<title>Carmen Leander</title>
-</head>
-
-<body>
-Body
-
-</body>
-</html>
+source "https://rubygems.org"
+ruby "2.2.0"
+gem "sinatra"
