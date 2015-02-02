@@ -1,0 +1,115 @@
+
+div#stmark { 
+	width: 40%; 
+	background: rgba(0,0,0,0.2);
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 2em 2em 0 2em; 
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#stmark h1 { 
+	margin-top: 0; 
+	color: yellow;
+}
+
+div#block {
+	width: 40%; 
+	background: rgba(0,0,0,0.2);
+	color: white;
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 2em 2em 0 2em; 
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	/*margin-top: 0;*/
+
+
+}
+
+div#block h1 { 
+	margin-top: 0;
+	color: white; 
+	text-align: right;
+
+}
+
+div#normal {
+	width: 40%; 
+	/*background: rgba(0,0,0,0.2);*/
+	color: #686868;
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 2em 2em 0 2em; 
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-top: 0;
+
+}
+
+span {
+	text-align: right;
+}
+
+section{
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  position: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #686868;
+  font-weight: 50;
+
+
+}
+
+
+.box {
+  position: center;
+  vertical-align: bottom
+  margin: absolute;
+
+}
+
+section div{
+  /*border: 1px solid #000;*/
+  height: 300px;
+  width: 350px;
+  box-shadow: 0px 0px 0px 0px #0e0f0e;
+  padding: 20px;
+  text-align: center;
+  vertical-align: bottom;
+  /*box-sizing: border-box;*/
+  float: left;
+  margin: 15px auto 0px auto;
+  position: center;
+  background: bottom;
+  transition: 1s all;
+  font-family: 'Montserrat';
+  color: #686868;
+}
+
+section div:hover{
+
+  background-color: yellow;
+  margin-top: -10px;
+}
+
+
+#res {
+	/*width: 40%;*/ 
+	/*background: rgba(0,0,0,0.1);*/
+	color: #686868;
+	/*border: 5px double white;*/
+	/*margin: 3em;
+	padding: 2em 2em 0 2em; */
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	/*margin-top: 0;*/

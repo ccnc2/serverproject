@@ -1,0 +1,72 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	color: yellow;
+   background: url("images/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #444;
+  
+}
+
+
+div#stmark { 
+	width: 40%; 
+	background: rgba(0,0,0,0.2);
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 2em 2em 0 2em; 
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#stmark h1 { 
+	margin-top: 0; 
+	color: yellow;
+}
+
+div#block {
+	width: 40%; 
+	background: rgba(0,0,0,0.2);
+	color: white;
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 2em 2em 0 2em; 
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	/*margin-top: 0;*/
+
+}
+
+div#block h1 { 
+	margin-top: 0;
+	color: white; 
+
+}
+
+div#normal {
+	width: 40%; 
+	/*background: rgba(0,0,0,0.2);*/
+	color: #686868;
+	/*border: 5px double white;*/
+	margin: 3em;
+	padding: 0em 2em 0 2em;
+	float: right;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-top: 0;
+
+}
+
+span {
+	text-align: right;
+}
+
