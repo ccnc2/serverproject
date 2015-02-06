@@ -1,3 +1,8 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
 
 div#stmark { 
 	width: 40%; 
@@ -16,11 +21,11 @@ div#stmark h1 {
 }
 
 div#block {
-	width: 40%; 
+	width: 79%; 
 	background: rgba(0,0,0,0.2);
 	color: white;
 	/*border: 5px double white;*/
-	margin: 3em;
+	/*margin: 3em;*/
 	padding: 2em 2em 0 2em; 
 	float: right;
 	line-height: 155%;
@@ -35,6 +40,25 @@ div#block h1 {
 	color: white; 
 	text-align: right;
 
+}
+
+div#left {
+	width: 10%; 
+	background: rgba(0,0,0,0.2);
+	color: white;
+	/*border: 5px double white;*/
+	/*margin: 3em;*/
+	padding: 2em 2em 0 2em; 
+	float: left;
+	line-height: 155%;
+	font-family: 'Montserrat', sans-serif;
+	/*margin-top: 0;*/
+}
+
+div#left h1 { 
+	margin-top: 0;
+	color: white; 
+	text-align: left;
 }
 
 div#normal {
